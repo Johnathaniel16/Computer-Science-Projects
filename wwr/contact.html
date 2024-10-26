@@ -1,118 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Simple Contact page, made in BYU-Idaho course, with the pourpose of learning about web development"
-    />
-    <meta name="author" content="Vitor Sampaio" />
-    <title>Contact - Nathan's Rafting Company</title>
-    <link rel="stylesheet" href="styles/rafting.css" />
-  </head>
-  <body>
-    <header>
-      <img src="images/raftinglogoo.jpg" alt="my-logo" />
-      <nav>
-        <a href="home.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="trips.html">Trips</a>
-        <a href="contact.html">Contact Us</a>
-      </nav>
-    </header>
-    <main>
-      <section class="company-info">
-        <h1>Company Information</h1>
-        <p>Address: 141 S First West Rexburg ID</p>
-        <p>Phone: 9119119111</p>
-        <p>Email: wwrnathanboi@gmail.com</p>
+<!doctype html>
+<html lang="en-US">
 
-        <!-- Embedded Google Map -->
-        <div class="google-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4070.361560595995!2d-111.79326196923556!3d43.83136016688181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1728844933257!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </section>
-      <!-- Employee Profiles -->
-      <section>
-        <h2 class="flex">Meet Our Team</h2>
-        <div class="employee-profiles">
-          <div class="employee">
-            <img src="./images/happy1.jpg" alt="Employee 1" />
-            <p>Caption: Neymar - CEO</p>
-          </div>
-          <div class="employee">
-            <img src="./images/happy2.jpg" alt="Employee 2" />
-            <p>Caption: Mary Arelio - HR</p>
-          </div>
-          <div class="employee">
-            <img src="./images/happy3.jpg" alt="Employee 3" />
-            <p>Caption: Jessica Reis - Web Design</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact Form -->
-      <section class="contact-form">
-        <h2>Contact Us</h2>
-        <form action="submit_form.php" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label>Purpose of Message:</label>
-          <br /><br />
-          <input
-            type="radio"
-            id="generalInquiry"
-            name="purpose"
-            value="General Inquiry"
-            checked
-          />
-          <label for="generalInquiry">General Inquiry</label>
-
-          <input
-            type="radio"
-            id="reservationQuestion"
-            name="purpose"
-            value="Reservation Question"
-          />
-          <label for="reservationQuestion">Reservation Question</label>
-
-          <input
-            type="radio"
-            id="websiteSuggestion"
-            name="purpose"
-            value="Website Suggestion"
-          />
-          <label for="websiteSuggestion">Website Suggestion</label>
-
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-
-          <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
-          <label for="subscribe"
-            >Please subscribe me to the monthly newsletter</label
-          >
-
-          <button type="submit" id="submitButton">Submit</button>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <nav class="sociallinks">
-        <a href="https://facebook.com">
-          <img src="images/facebook.png" alt="Facebook" />
-        </a>
-        <a href="https://twitter.com">
-          <img src="images/Twitter.png" alt="Twitter" />
-        </a>
-        <a href="https://instagram.com">
-          <img src="images/Instagram.jpg" alt="Instagram" />
-        </a>
-      </nav>
-    </footer>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Rafting Site Contact Us | Nathan Velazquez</title>
+        <meta name="description" content="Here is all the details on how to contact Up A Creek">
+        <meta name="author" content="Nathan Velazquez">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/raftinglogoo.jpg" alt="Rafting Site Logo" height="75">
+            <h1><strong>Up A Creek</strong></h1>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="hero">
+                <img src="images/rafting.jpg" alt="The River">
+                <h1><b>All The Details</b></h1>
+                <article class="button, :hover">
+                    <a onmousedown="javascript:_paq.push;" class="button" href="https://hpet2024.github.io/wdd130/wwr/contact-form.html" target="_blank">Click Here to Contact Us</a>
+                </article>
+            </div>
+            <section class="history">
+                <p>📞<strong>Call</strong> Up A Creek<br>Main 888-888-0000<br>Questions and Reservations<br>Se Habla Español : 911-911-9111<br><br>📧 <strong>Email</strong> Up A Creek<br>upacreek@anywhere.usa<br><br>🎯 <strong>Visit</strong> Up A Creek<br>83440 BYUI ROAD<br>Rexburg ID</p>
+                <h2><strong>Pigeon River Location</strong><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.576749770876!2d-83.14587142574484!3d35.81032267254573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885bdbe0a5efab0f%3A0x53dbeb5000b9c638!2s3700%20Hartford%20Rd%2C%20Hartford%2C%20TN%2037753!5e0!3m2!1sen!2sus!4v1707510577460!5m2!1sen!2sus" width="200" height="175" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></h2>
+                <p>Here at Up A Creek, we love hearing from you! Our staff is always ready to make recommendations about which adventure package is right for you.<br><br>If you’ve visited Up A Creek before, we want to hear from you too! We are always looking for feedback from our guests. Please feel free to send us a message.</p>                   
+            </section>
+            <section class="adventure">
+                <h2><strong>Up A Creek Team</strong></h2>
+            <div>
+                <figure>
+                    <img src="images/happy1.jpg" alt="Community Outreach, CEO, Sales">
+                    <figcaption>Darrel Harris, Community Outreach | Jake Tanner, CEO | Tiffany Day, Sales</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happy2.jpg" alt="Marketing Director">
+                    <figcaption>Hannah Smith, Marketing Director</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happy3.jpg" alt="CFO">
+                    <figcaption>Marlee White, CFO</figcaption>
+                </figure>
+            </div> 
+            </section>           
+        </main>
+        <footer>
+            <p>©️2024 🌊 Up A Creek | Nathan Velazquez 🌊  <a href="images/wireframes.webp"></a>
+            <nav>
+                <ul class="sociallinks">
+                    <li><a href="https://facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook" width="30" height="30"></a></li>                  
+                    <li><a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt="Twitter" width="30" height="30"></a></li>                
+                    <li><a href="https://instagram.com/" target="_blank"><img src="images/Instagram.jpg" alt="Instagram" width="30" height="30"></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
 </html>
